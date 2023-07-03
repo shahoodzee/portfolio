@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4d25bb87.css",
-    "main.js": "/portfolio/static/js/main.6edd960b.js",
+    "main.css": "/portfolio/static/css/main.69172a06.css",
+    "main.js": "/portfolio/static/js/main.7a4b6885.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Elib.PNG": "/portfolio/static/media/Elib.9f040d5f29fcb96f3c3c.PNG",
-    "static/media/multitach.PNG": "/portfolio/static/media/multitach.25f9a25f388ebb6db64f.PNG",
+    "static/media/Elib.PNG": "/portfolio/static/media/Elib.18bb6935bb3c9c5c27f9.PNG",
+    "static/media/multitach.PNG": "/portfolio/static/media/multitach.4f53277ec1831a8786ba.PNG",
     "static/media/aboutme.jpeg": "/portfolio/static/media/aboutme.dbb1bd603d137c859dfe.jpeg",
     "static/media/me.png": "/portfolio/static/media/me.d3a9fa8595c93888ef2b.png",
     "static/media/BLOCKCHAIN.png": "/portfolio/static/media/BLOCKCHAIN.bca74fa227abc6c5b80a.png",
-    "static/media/Portfolio1.jpg": "/portfolio/static/media/Portfolio1.fe0f74795bb7ec26e967.jpg",
+    "static/media/Portfolio1.jpg": "/portfolio/static/media/Portfolio1.6c758f177f80361446d2.jpg",
+    "static/media/NER.png": "/portfolio/static/media/NER.f76d7055db24da0170cc.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.511c461026f027dbd22b.pdf",
-    "static/media/NER.png": "/portfolio/static/media/NER.df42088940f5d556776f.png",
-    "static/media/OBE.jpeg": "/portfolio/static/media/OBE.110118c5c3d15c34ce62.jpeg",
+    "static/media/OBE.jpeg": "/portfolio/static/media/OBE.ff6f59fb48291abb890c.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.4d25bb87.css.map": "/portfolio/static/css/main.4d25bb87.css.map",
-    "main.6edd960b.js.map": "/portfolio/static/js/main.6edd960b.js.map",
+    "main.69172a06.css.map": "/portfolio/static/css/main.69172a06.css.map",
+    "main.7a4b6885.js.map": "/portfolio/static/js/main.7a4b6885.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d25bb87.css",
-    "static/js/main.6edd960b.js"
+    "static/css/main.69172a06.css",
+    "static/js/main.7a4b6885.js"
   ]
 }
