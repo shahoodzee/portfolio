@@ -27,9 +27,9 @@ const HeroSection = (props) => {
           </div>
           </p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <span className="hero--section-title--color">Hey, Iam Shahood</span>{" "}
             <br />
-            Developer
+            Full Stack Developer
           </h1>
           <p className="hero--section-description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -39,7 +39,7 @@ const HeroSection = (props) => {
         <button className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero--section--img">
-        <img src={Image} alt="Hero Section" height={100} width={100} />
+        <img src={Image} alt="Hero Section"/>
       </div>
     </section>
   );

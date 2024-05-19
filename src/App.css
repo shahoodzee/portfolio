@@ -147,6 +147,7 @@ body {
     font-weight: 600;
     line-height: 24px;
   }
+  /*portfolio circle ends*/
   /* Section Titles Ends */
   
   /* Navbar Style Start */
@@ -154,7 +155,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 85.333px;
+    padding: 10px 85.333px;
     background: var(--white);
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -183,6 +184,10 @@ body {
   }
   .navbar--active-content {
     color: var(--primary);
+  }
+  .navbar__button {
+    border-radius: 6px !important;
+    padding: 10px 30px !important;
   }
   /* Navbar Styler Ends */
   
@@ -213,7 +218,7 @@ body {
   }
   .hero--section--title {
     color: var(--heading-color);
-    font-size: 74.667px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 90px;
     align-self: stretch;
@@ -672,7 +677,7 @@ body {
   /* Responsive Screens */
   @media only screen and (max-width: 1800px) {
     .hero--section--title {
-      font-size: 68px;
+      font-size: 50px;
       line-height: 70px;
     }
     .skills--section--title {
@@ -807,6 +812,7 @@ body {
     .nav__hamburger {
       display: flex;
       z-index: 200;
+      margin-top: -10px;
     }
     .navbar--items {
       display: flex;
