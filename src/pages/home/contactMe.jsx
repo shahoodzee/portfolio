@@ -7,7 +7,7 @@ const ContactMe = (props) => {
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          I a, super active across social media platforms.
         </p>
       </div>
       <form className="contact--form--container">
@@ -57,9 +57,13 @@ const ContactMe = (props) => {
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>General Discussion</option>
+            <option>Mobile Application</option>
+            <option>Full stack Website</option>
+            <option>Full stack Website (.NET)</option>
+            <option>Backend (Django)</option>
+            <option>Frontend (React Js)</option>
+            
           </select>
         </label>
         <label htmlFor="message" className="contact--label">

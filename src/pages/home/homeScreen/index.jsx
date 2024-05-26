@@ -4,7 +4,6 @@ import MyPortfolio from "../portfolio";
 import FooterSection from "../footer";
 import SkillSection from "../mySkills";
 import AboutMe from "../aboutMe";
-import Testimonials from "../testimonials";
 import ContactMe from "../contactMe";
 
 const Home = (props) => {
@@ -14,7 +13,6 @@ const Home = (props) => {
       <SkillSection />
       <AboutMe />
       <MyPortfolio />
-      <Testimonials />
       <ContactMe />
       <FooterSection />
     </>

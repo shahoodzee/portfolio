@@ -1,10 +1,6 @@
-import React from "react"
 import data from "../../data/data.json";
 
-
-
-
-const SkillSection = (props) => {
+export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
       <div className="portfolio--container">
@@ -25,7 +21,5 @@ const SkillSection = (props) => {
         ))}
       </div>
     </section>
-  )
-};
-
-export default SkillSection;
+  );
+}

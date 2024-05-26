@@ -1,11 +1,12 @@
 import { Link } from "react-scroll";
 import React from "react";
+import Img from "../../images/coder-animation.jpg";
 const FooterSection = (props) => {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src={Img} alt="Logoipsum" className="Footer--Image" />
         </div>
         <div className="footer--items">
           <ul>
@@ -17,10 +18,12 @@ const FooterSection = (props) => {
                 offset={-70}
                 duration={500}
                 to="heroSection"
-                className="text-md"
+                className="text-footer-heading"
               >
-                Home
+                <strong>Links</strong>
               </Link>
+              <li>a</li>
+              <li>q</li>
             </li>
             <li>
               <Link
@@ -170,52 +173,6 @@ const FooterSection = (props) => {
         </div>
       </div>
       <hr className="divider" />
-      <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
-        <div className="footer--social--icon">
-          <ul>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Privacy_Policy"
-                className="text-sm"
-              >
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Terms_of_Service"
-                className="text-sm"
-              >
-                Terms of Service
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Cookies_Settings"
-                className="text-sm"
-              >
-                Cookies Settings
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
     </footer>
   )
 };

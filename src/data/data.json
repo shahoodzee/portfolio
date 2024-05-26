@@ -3,25 +3,25 @@
       {
         "id": "1",
         "src": "./img/React.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "React",
+        "description": "I can make you a static website build on ReactJs or a front-end of a fulltstack App with API calls"
       },
       {
         "id": "2",
         "src": "./img/Django.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Django",
+        "description": "I can build you a full stack website using this python framework or just the back-end of a full stack website."
       },
       {
         "id": "3",
         "src": "./img/Xamirin.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Xamirin",
+        "description": "I can build you a mobile application using this C# based framework that builds frobust mobile apps."
       },
       {
         "id": "4",
-        "src": "./img/sql.png",
-        "title": "Webflow Development",
+        "src": "./img/DotNet.png",
+        "title": "DotNET",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
       }
     ],
@@ -29,21 +29,21 @@
       {
         "id": "1",
         "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
+        "title": "Multitach",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
         "link": "View In Github"
       },
       {
         "id": "2",
         "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
+        "title": "Avisina International",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "View In Githudwdb"
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
+        "title": "Graymath Attendance System",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
         "link": "View In Github"
       }
