@@ -1,6 +1,27 @@
-import React from "react"
+import React from "react";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 const ContactMe = (props) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_wdyaoso', 'template_qryelpe', form.current, {
+        publicKey: 'rFcKP_erNWFcl9RG3',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section id="Contact" className="contact--section">
       <div>
@@ -10,15 +31,15 @@ const ContactMe = (props) => {
           I a, super active across social media platforms.
         </p>
       </div>
-      <form className="contact--form--container">
+      <form className="contact--form--container" ref={form} onSubmit={sendEmail}>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
             <input
               type="text"
               className="contact--input text-md"
-              name="first-name"
-              id="first-name"
+              name="user_first_name"
+              id="user_first_name"
               required
             />
           </label>
@@ -27,8 +48,8 @@ const ContactMe = (props) => {
             <input
               type="text"
               className="contact--input text-md"
-              name="last-name"
-              id="last-name"
+              name="user_last_name"
+              id="user_last_name"
               required
             />
           </label>
@@ -37,8 +58,8 @@ const ContactMe = (props) => {
             <input
               type="email"
               className="contact--input text-md"
-              name="email"
-              id="email"
+              name="user_email"
+              id="user_email"
               required
             />
           </label>
@@ -47,15 +68,15 @@ const ContactMe = (props) => {
             <input
               type="number"
               className="contact--input text-md"
-              name="phone-number"
-              id="phone-number"
+              name="phone_number"
+              id="phone_number"
               required
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
+        <label htmlFor="form_subject" className="contact--label">
           <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
+          <select name="form_subject" id="form_subject" className="contact--input text-md">
             <option>Select One...</option>
             <option>General Discussion</option>
             <option>Mobile Application</option>
@@ -71,6 +92,7 @@ const ContactMe = (props) => {
           <textarea
             className="contact--input text-md"
             id="message"
+            name="message"
             rows="8"
             placeholder="Type your message..."
           />
@@ -80,7 +102,7 @@ const ContactMe = (props) => {
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" value="Send" className="btn btn-primary contact--form--btn">Submit</button>
         </div>
       </form>
     </section>

@@ -31,21 +31,24 @@
         "src": "./img/placeholder-image.png",
         "title": "Multitach",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "Live Demo (Coming Soon)",
+        "url": ""
       },
       {
         "id": "2",
         "src": "./img/placeholder-image-1.png",
         "title": "Avisina International",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Githudwdb"
+        "link": "Live Demo (Coming Soon)",
+        "url": ""
       },
       {
         "id": "3",
         "src": "./img/placeholder-image-2.png",
         "title": "Graymath Attendance System",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "link": "View In Github",
+        "url": "https://github.com/shahoodzee/Graymath-Attendence-App"
       }
     ],
     "testimonial": [
