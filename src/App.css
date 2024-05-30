@@ -52,6 +52,11 @@ body {
     background-color: var(--white);
     border: 1px solid var(--primary);
   }
+  .skills-btn-outline-primary {
+    color: var(--primary);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+  }
   .btn-outline-primary:hover {
     color: var(--white);
     background-color: var(--primary);
@@ -434,6 +439,12 @@ body {
     font-weight: 700;
     line-height: 77px;
   }
+  .other--skills--section--heading {
+    color: var(--heading-color);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+  }
   .skills--section--container {
     display: grid;
     justify-content: center;
@@ -747,6 +758,28 @@ body {
     font-weight: 400;
     line-height: 28px;
   }
+
+  /*other skills section opens*/
+    .other--skills--container {
+      padding: 0px 85.33px;
+    }
+    .other--skills--section--container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 50px;
+    }
+
+    button.other--skills--btn {
+      color: var(--primary);
+      width: 80px;
+      border-radius: 20px;
+      height: 30px;
+    } 
+  
+
+    /*other skills section closes*/
   
   /* Responsive Screens */
   @media only screen and (max-width: 1800px) {
@@ -764,6 +797,9 @@ body {
     .skills--section--heading {
       font-size: 54px;
       line-height: 70px;
+    }
+    .other--skills--section--heading {
+      font-size: 54px;
     }
     .skills--section--container {
       gap: 16px;
@@ -835,6 +871,7 @@ body {
     }
     .hero--section--title,
     .skills--section--heading,
+    .other--skills--section--heading,
     .sections--heading {
       font-size: 35px;
       line-height: 40px;
@@ -895,6 +932,10 @@ body {
 
     .Footer--Image{
       display: none;
+    }
+
+    .other--skills--section--container{
+      width: 600px;
     }
   }
 
