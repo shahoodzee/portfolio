@@ -28,7 +28,7 @@ const ContactMe = (props) => {
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          I a, super active across social media platforms.
+          I am, super active across social media platforms.
         </p>
       </div>
       <form className="contact--form--container" ref={form} onSubmit={sendEmail}>
