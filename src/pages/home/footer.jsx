@@ -11,14 +11,14 @@ const FooterSection = (props) => {
         </div>
         <div className="footer--items">
           <ul>
-            <li>
-              <h2>Links</h2>
+            <li className="footer--links--mylinks">
+              <div className="footer--link--heading">Links</div>
               <li><a className="navbar-links" href="https://leetcode.com/u/user2719F/">LeetCode</a></li>
               <li><a className="navbar-links" href="https://www.hackerrank.com/profile/shahood_bin_amir">HackerRank</a></li>
               <li><a className="navbar-links" href="https://www.hackerrank.com/profile/shahood_bin_amir">Discord</a>
               </li>
             </li>
-            <li>
+            <li className="footer--link--routerlink">
               <Link
                 activeClass="navbar--active-content"
                 spy={true}
@@ -26,7 +26,7 @@ const FooterSection = (props) => {
                 offset={-70}
                 duration={500}
                 to="MyPortfolio"
-                className="text-md"
+                className="navbar-links"
               >
                 Portfolio
               </Link>
@@ -38,7 +38,7 @@ const FooterSection = (props) => {
                 offset={-70}
                 duration={500}
                 to="AboutMe"
-                className="text-md"
+                className="navbar-links"
               >
                 About Me
               </Link>
@@ -50,7 +50,7 @@ const FooterSection = (props) => {
                 offset={-70}
                 duration={500}
                 to="Contact"
-                className="text-md"
+                className="navbar-links"
               >
                 Contact Me
               </Link>
@@ -62,7 +62,7 @@ const FooterSection = (props) => {
                 offset={-70}
                 duration={500}
                 to="testimonial"
-                className="text-md"
+                className="navbar-links"
               >
                 Testimonials
               </Link>

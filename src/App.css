@@ -758,6 +758,19 @@ body {
     font-weight: 400;
     line-height: 28px;
   }
+  .footer--link--heading{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+  }
+  .navbar-links {
+    color: white;
+    font-size: larger;
+  }
+  li.footer--link--routerlink {
+    padding-top: 35px;
+  }
+  /*footer section ends*/
 
   /*other skills section opens*/
     .other--skills--container {
@@ -915,7 +928,7 @@ body {
 
     .skills--section--container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
 
     .navbar {
@@ -934,8 +947,9 @@ body {
       display: none;
     }
 
-    .other--skills--section--container{
-      width: 600px;
+    .other--skills--btn {
+      flex: 1 1 100%;
+      margin-bottom: 10px;
     }
   }
 
